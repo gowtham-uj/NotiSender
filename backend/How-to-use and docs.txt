@@ -37,6 +37,15 @@ API RELATED TO EMAIL GROUPS:
 /app/create-group  - takes the group namke and emails array with list of emails.
 /app/get-all-groups  - returns all of the email groups with all emails of that group.
 
+LOGIN CREDS FOR FAKE MAIL SERVICES THAT TRAPS THE ALL OUTGOING EMAILS FROM OUR SYSTEM TO REAL EMAILS.
+
+WEBSITE: https://ethereal.email/login
+username: reyna67@ethereal.email
+password: 4Bp2xHYWk6t4EX8hxd
+
+
+- first login to the website and go the messages tab and then try testing the notification system by sending notification and u can see all of the outgoing emails in the messages tab .
+
 
 Already created stuff for testing:
 TEMPLATE:
