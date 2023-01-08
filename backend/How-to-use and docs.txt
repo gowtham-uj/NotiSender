@@ -1,0 +1,61 @@
+Notisender - Notification Sender system
+
+- This application is majorly a backend system with exposed api's to perform tasks.
+
+- The Tasks that can be performed by the application are:
+
+. We can create email templates and store it in the system , so that the emails can use the template and send the required data to backend to fill in that template variable fields.
+
+. each template is identified by a template name.
+
+. Send instant email Notifications to a given list of emails.
+
+. Schedule Notifications to a given list of emails.
+
+. we can create email groups with group name and emails list so that the emails can be categorized and can be used to send notifications to a particular group of emails.
+
+. send instant notifications to a given email group.
+
+. schedule email notifications to a given email group.
+
+Api names :
+API RELATED TO TEMPLATES:
+
+/app/create-template  - TAKES THE NAME AND TEMPLATE VARIABLES
+/app/create-template-html - TAKES THE HTML FILE AND STORE IT IN THE TEMPLATES DIRECTORY.
+/app/get-all-templates  - GIVES THE DETAILS ABOUT ALL OF THE TEMPLATES.
+
+API RELATED TO NOTIFICATIONS:
+
+/app/send-notification  - SENDS THE INSTANT NOTIFICATION TO THE GIVEN LIST OF EMAILS
+/app/schedule-notification  - SCHEDULE THE  NOTIFICATION TO THE GIVEN LIST OF EMAILS
+/app/send-group-notification  - SENDS THE INSTANT NOTIFICATION TO THE GIVEN EMAIL GROUP.
+/app/schedule-group-notification - SCHEDULE THE  NOTIFICATION TO THE GIVEN EMAIL GROUP.
+
+
+API RELATED TO EMAIL GROUPS:
+/app/create-group  - takes the group namke and emails array with list of emails.
+/app/get-all-groups  - returns all of the email groups with all emails of that group.
+
+
+Already created stuff for testing:
+TEMPLATE:
+name : privacy-policy
+fields: [
+  "updateTitle",
+  "updateName",
+  "updateText"
+]
+
+Group:
+1.
+name: customers
+group_id: 3YAPnsHQkXqHMFLNhDMZNL
+
+2.
+name: news-letter
+group_id: itC6BKJDDLfJFJ11MmnuAB
+
+**************************************************************
+ TO KNOW THE EXACT SPECS OF API'S AND TO TEST THOSE OUT USE THE POSTMAN COLLECTION THAT IS POSTED PUBLIC.
+
