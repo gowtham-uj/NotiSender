@@ -40,8 +40,15 @@ we can create email templates and store it in the system, so that emails can use
 Credentials for fake mail services that traps all the outgoing emails from our system to real emails.
 
 Website : [Click Here to login to the mail](https://ethereal.email/login)
-Username: reyna67@ethereal.email
-Password: 4Bp2xHYWk6t4EX8hxd
+* Username: reyna67@ethereal.email
+* Password: 4Bp2xHYWk6t4EX8hxd
 
 - first login to the website and go the messages tab and then try testing the notification system by sending notification and u can see all of the outgoing emails in the messages tab .
+
+## Demo of sending the notification
+
+First go to the [POSTMAN](https://documenter.getpostman.com/view/20316415/2s8Z75SVbi) Docs website and there you can see a bunch of API collections.
+
+* Sending a notification to specified users
+
 
