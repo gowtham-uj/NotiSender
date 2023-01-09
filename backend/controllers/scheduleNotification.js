@@ -8,6 +8,7 @@ const { BigPromise } = require("../utils/BigPromise");
 const nodeMailer = require("../configs/nodeMailer");
 const Mustache = require("mustache");
 const cron = require("node-cron");
+const short = require("short-uuid");
 const TemplateDetail = require("../models/TemplateDetail");
 const isDeepEqual = require("../utils/isDeepEqual");
 const dateToCronExp = require("../utils/dateToCronExp");

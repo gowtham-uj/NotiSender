@@ -12,6 +12,7 @@ const TemplateDetail = require("../models/TemplateDetail");
 const isDeepEqual = require("../utils/isDeepEqual");
 const dateToCronExp = require("../utils/dateToCronExp");
 const Email = require("../models/Email");
+const short = require("short-uuid");
 
 const NotificationSchedule = require("../models/NotificationSchedule");
 

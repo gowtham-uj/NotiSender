@@ -7,6 +7,7 @@ const fs = require("fs").promises;
 const { BigPromise } = require("../utils/BigPromise");
 const Mustache = require("mustache");
 const TemplateDetail = require("../models/TemplateDetail");
+const short = require("short-uuid");
 
 const templatesDetails = {
   privacyPolicy: {
