@@ -49,6 +49,37 @@ Website : [Click Here to login to the mail](https://ethereal.email/login)
 
 First go to the [POSTMAN](https://documenter.getpostman.com/view/20316415/2s8Z75SVbi) Docs website and there you can see a bunch of API collections.
 
-* Sending a notification to specified users
+### Sending a notification to specified users
 
+<p align="center">
+<img src="https://github.com/gowtham-uj/NotiSender/blob/bbd58e345c5c50f9a3a11e1fcd70cbf58c04f712/send-notification.png">
+</p>
 
+### Response
+If the success message is true, then the email is sent successfully. You can see the response in response tab after sending the request.
+<p align="center">
+<img src="https://github.com/gowtham-uj/NotiSender/blob/bbd58e345c5c50f9a3a11e1fcd70cbf58c04f712/Response.png">
+</p>
+
+### Inbox
+Here we can see all the sent messages/Notifications in our Inbox.
+
+<p align="center">
+<img src="https://github.com/gowtham-uj/NotiSender/blob/bbd58e345c5c50f9a3a11e1fcd70cbf58c04f712/inbox.png">
+</p>
+
+As you can see the sent messages and the bulk Notifications sent to the group in the Inbox.
+
+### Inside the message.
+
+Inside the message is a predefined template, that can be modified or set using the `/create-template` POST Method.
+
+<p align="center">
+<img src="https://github.com/gowtham-uj/NotiSender/blob/bbd58e345c5c50f9a3a11e1fcd70cbf58c04f712/message.png">
+</p>
+
+So, finally we can see the actual message that we sent to the targeted emails.
+
+## NOTE : For more features, try to explore and test out those other end points [here](https://documenter.getpostman.com/view/20316415/2s8Z75SVbi).
+
+# ThankYou.
