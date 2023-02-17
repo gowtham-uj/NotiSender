@@ -3,8 +3,6 @@ Generic notification system to send buk text email.
 
 ## INTRO
 
-This repo is a part of Wells Fargo - Hackathon by IIT Madras.
-
 This application is majorly a backend system with exposed API's to perform specified tasks.
 
 ## Task ideas
